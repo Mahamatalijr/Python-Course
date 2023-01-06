@@ -1,0 +1,93 @@
+1. What is python?
+Ans: Python is a high-level, interpreted, object-oriented programming language. It was first released in 1991 and is widely used in a variety of fields including web development, data science, scientific computing, and artificial intelligence. Python is known for its simple syntax, code readability, and large standard library, making it a popular choice for beginners and experienced programmers. It is also highly extensible, meaning that you can use C or C++ code libraries to perform computationally intensive tasks or require access to low-level system resources.
+
+2. What are the applications of Python?
+Ans: Python is a versatile language and is used in a wide range of applications. 
+Some common areas where Python is used include:
+a.Web development: Python can be used to build server-side web applications.
+b.Scientific and numeric computing: Python is a popular language for scientific and numeric computing, with libraries such as NumPy and SciPy providing support for array operations, linear algebra, and other mathematical operations.
+c.Artificial intelligence and machine learning: Python has several libraries and frameworks that support the development of machine learning models, including TensorFlow and scikit-learn.
+d.Data analysis and visualization: Python has libraries such as Pandas and Matplotlib that make it easy to perform data analysis and visualization.
+e.Desktop GUI applications: Python can be used to build cross-platform desktop applications with libraries such as PyQt and Kivy.
+
+3. Variables in Python and its types.
+Ans: Variables in python are reserved memory locations to store values, and identifiers to reference a value in a program that stores and manipulates data.
+To create a variable in Python, we just need to give it a name and assign a value to it using the equal sign (=). 
+For example:
+x = 10
+This creates a variable called x and assigns it the value 10. We can then use the variable x in your program by referring to its name. 
+For example:
+print(x)
+This would output 10 to the screen.
+In Python, variables do not have a fixed type. This means that we can assign a value of any type to a variable. 
+For example:
+x = 10
+x = "hello"
+In the first line, the variable x is assigned an integer value. In the second line, it is assigned a string value. This is known as dynamic typing, and it is one of the features of Python that makes it a flexible and easy-to-use language.
+Types of variable:
+a.Global
+b.Local
+c.Enclosing
+d.Built-in
+
+4. Functions in Python.
+Ans: A function is a block of code that performs a specific task. Functions are used to modularize code and to make it easier to reuse.
+To define a function in Python, we use the def keyword followed by the name of the function and a set of parentheses.
+To call a function in Python, we use the function's name followed by a set of parentheses. We can also pass arguments inside the parentheses to pass data to the function.
+Functions can be defined inside other functions and can also be passed as arguments to other functions. This allows us to write flexible and modular code in Python.
+
+5. Operators in Python.
+Ans: In Python, operators are special symbols that represent calculations or actions. 
+Some common operators in Python include:
+    +: Addition
+    -: Subtraction
+    *: Multiplication
+    /: Division
+    %: Modulo (remainder)
+    **: Exponentiation
+    //: Integer division (the division that results in a whole number)
+These operators can be used to perform various calculations on values and variables. 
+For example:
+x = 10
+y = 5
+
+print(x + y)  # Outputs 15
+print(x - y)  # Outputs 5
+print(x * y)  # Outputs 50
+print(x / y)  # Outputs 2.0
+print(x % y)  # Outputs 0
+print(x ** y)  # Outputs 100000
+print(x // y)  # Outputs 2
+
+In addition to these arithmetic operators, Python also has several comparison operators that allow you to compare values. These include:
+    ==: Equal to
+    !=: Not equal to
+    <: Less than
+    >: Greater than
+    <=: Less than or equal to
+    >=: Greater than or equal to
+Comparison operators return a Boolean value (either True or False) depending on the result of the comparison. 
+For example:
+x = 10
+y = 5
+
+print(x == y)  # Outputs False
+print(x != y)  # Outputs True
+print(x < y)  # Outputs False
+print(x > y)  # Outputs True
+print(x <= y)  # Outputs False
+print(x >= y)  # Outputs True
+
+Python also has several logical operators that allow you to combine multiple comparisons. These include:
+    and: True if both comparisons are true
+    or: True if either comparison is true
+    not: True if the comparison is false
+
+Logical operators return a Boolean value (either True or False) depending on the result of the comparison. 
+For example:
+x = 10
+y = 5
+
+print(x < 20 and y < 10)  # Outputs True
+print(x < 20 or y < 10)  # Outputs True
+print(not(x < 20))  # Outputs False
